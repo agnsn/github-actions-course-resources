@@ -17,9 +17,9 @@ jobs:
         run: echo "Hello World"
       - name: Print Goodbye
         run: echo "Done -bye"
-      -name: Build Project
+      - name: Build Project
         run: npm run build
-      -name: Deploy
+      - name: Deploy
         run: echo "Deploying ..."
       
 
